@@ -4,6 +4,7 @@
   "description": "proecto final del módulo 1 del CP DAW.Realizado por HTML ,CSS, tailwind y javascript.",
   "main": "index.js",
   "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
